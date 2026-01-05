@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #ffc0d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b03060;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #6a1b4d;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* FOTO DI DALAM CARD */
+.foto-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.foto-mahasiswa {
+    width: 280px;          /* ukuran foto */
+    border-radius: 20px;
+    border: 6px solid #ffc0d9;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.foto-mahasiswa:hover {
+    transform: scale(1.05);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to bottom, #ffd6e8, #ffeaf3);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #b03060;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* efek gerak dikit */
+.foto-mahasiswa:hover {
+    transform: scale(1.05);
+}
+
+/* CARD */
+.card {
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #b03060;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-top: 20px;
+    color: #6a1b4d;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.card ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+/* FOTO */
+.card img {
+    width: 180px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 4px solid #ffc0d9;
+}
+
+.card {
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #ff9acb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #b03060;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc0d9;
+    color: #6a1b4d;
+    margin-top: 60px;
+}
